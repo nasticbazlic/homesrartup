@@ -1,0 +1,44 @@
+.services {
+    min-height: 580px;
+    padding: 100px 0;
+    &__content {
+        margin-top: 70px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    &__item {
+        text-align: center;
+        color: rgba(0, 0, 0, 0.527);
+    }
+    &__icon {
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        width: 90px;
+        height: 90px;
+        border: 2px solid rgba(0, 0, 0, 0.527);
+        border-radius: 50%;
+        background-color: inherit;
+        color: red;
+        font-size: 40px;
+        i {
+            width: 100%;
+        }
+        &:hover {
+            background-color: red;
+            color: #fff;
+            border: none;
+        }           
+    }
+    &__title {
+        margin-top: 30px;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    &__text {
+        margin-top: 25px;
+        font-size: 16px;
+        font-weight: 400;
+    }
+}

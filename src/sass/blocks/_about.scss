@@ -1,0 +1,12 @@
+.about {
+    min-height: 850px;
+    padding: 100px 0;
+    background-color: rgb(203, 219, 224);
+    &__info {
+        margin-top: 70px;
+        display: flex;
+        color: rgba(0, 0, 0, 0.527);
+        font-size: 15px;
+        font-weight: 400;
+    }
+}

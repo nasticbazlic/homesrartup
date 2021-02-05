@@ -1,0 +1,21 @@
+.block {
+    color: rgba(0, 0, 0, 0.527);
+    font-weight: 500;
+    text-align: center;
+}
+.title {
+    font-size: 35px;
+    text-transform: uppercase;
+}
+hr {
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 55px;
+    &:not([size]) {
+        height: 4px;
+    }
+}
+.subheader {
+    margin-top: 30px;
+    font-size: 20px;
+}

@@ -1,0 +1,12 @@
+* {
+    font-family: 'Oswald', sans-serif;
+}
+.container {
+    width: 1140px;
+}
+
+@import 'blocks/header';
+@import 'blocks/button';
+@import 'blocks/services';
+@import 'blocks/block';
+@import 'blocks/about';

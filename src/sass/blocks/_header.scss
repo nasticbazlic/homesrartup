@@ -1,0 +1,42 @@
+.header {
+    min-height: 770px;
+    padding: 40px 0 260px 0;
+    background: url(../img/Rectangle2.jpg) center (center/ cover) no-repeat;
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    &__logo {
+        margin-top: 2px;
+    }
+    &__menu {
+        display: flex;
+        list-style: none;
+    }
+    &__link {
+        padding-left: 35px;
+        color: #fff;
+        font-size: 15px;
+        font-weight: 600;
+        text-transform: capitalize;
+        text-decoration: none;
+    }
+    &__table {
+        margin-top: 260px;
+        text-align: center;
+        color: #fff;
+    }
+    &__title {
+        margin: 0;        
+        font-size: 75px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    &__subtitle {
+        margin-top: 35px;
+        font-size: 30px;
+        font-weight: 600;
+        text-transform: capitalize;
+    }
+}
