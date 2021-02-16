@@ -1,7 +1,7 @@
 new Swiper ('.about__slider', {
     slidesPerView: 4,
     spaceBetween: 30,
-    loop: true,
+    loop: false,
     navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
@@ -11,4 +11,30 @@ new Swiper ('.about__slider', {
         clickable: true,
         dynamicBullets: true,
     },
+    breakpoints: {
+        '320': {
+            slidesPerView: 1,
+            spaceBetween: 10,
+        },
+        '475': {
+            slidesPerView: 1,
+            spaceBetween: 10,
+        },
+        '576': {
+            slidesPerView: 1,
+            spaceBetween: 10,
+        },
+        '767': {
+            slidesPerView: 2,
+            spaceBetween: 152,
+        },
+        '991': {
+            slidesPerView: 3,
+            spaceBetween: 100,
+        },
+        '1200': {
+            slidesPerView: 4,
+            spaceBetween: 30,
+        }
+      }
 });
