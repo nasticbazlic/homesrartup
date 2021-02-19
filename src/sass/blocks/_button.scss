@@ -3,12 +3,17 @@
     height: 50px;
     border: 2px solid #fff;
     background-color: inherit;
+    font-size: 20px;
     color: #fff;
     &:hover {
         color: red;
-        background-color: #fff;
+        background-color: rgba(255, 255, 255, 0.5);
     }
     &_header {
         margin-top: 55px;
+    }
+    &_get {
+        margin-top: 50px;
+        
     }
 }

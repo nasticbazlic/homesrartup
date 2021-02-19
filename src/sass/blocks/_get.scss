@@ -1,0 +1,11 @@
+.get {
+    min-height: 370px;
+    padding: 100px 0;
+    text-align: center;
+    background: url(../img/Hover.jpg) center (center/ cover) no-repeat;
+    &__text {
+        color: #fff;
+        font-size: 30px;
+        font-weight: 400;
+    }
+}
