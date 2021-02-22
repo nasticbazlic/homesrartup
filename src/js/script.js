@@ -38,3 +38,27 @@ new Swiper ('.about__slider', {
         }
       }
 });
+new Swiper ('.clients__slider', {
+    slidesPerView: 1,
+    spaceBetween: 30,
+    loop: false,
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+        dynamicBullets: true,
+    },
+    breakpoints: {
+        '320': {
+            slidesPerView: 1,
+            spaceBetween: 10,
+        },
+        '475': {
+            slidesPerView: 1,
+            spaceBetween: 10,
+        },
+        '576': {
+            slidesPerView: 1,
+            spaceBetween: 10,
+        }
+      }
+});
