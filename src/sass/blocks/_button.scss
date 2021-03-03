@@ -16,4 +16,17 @@
         margin-top: 50px;
         
     }
+    &_form {
+        margin-top: 20px;
+        margin-right: 25px;
+        color: rgba(0, 0, 0, 0.527);
+        border: 1px solid rgba(0, 0, 0, 0.527);
+        text-transform: uppercase;
+        font-size: 17px;
+        &:hover {
+            color: #fff;
+            background: red;
+            border: none;
+        }
+    }
 }

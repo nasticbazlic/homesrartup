@@ -6,7 +6,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />    
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.min.css">
     <title>StartUp</title>
@@ -209,7 +209,7 @@
                 </div> 
                 <div class="swiper-button-prev"></div>
                 <div class="swiper-button-next"></div>
-                <div class="swiper-pagination"></div>               
+                              
             </div>
         </div>
     </section> 
@@ -290,8 +290,7 @@
         </div>
     </section>
 
-    <section class="clients">
-        <div class="container">
+    <section class="clients">        
             <div class="clients__slider swiper-container">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
@@ -348,8 +347,91 @@
                 </div>
                 <div class="swiper-pagination"></div>   
             </div>
+    </section>
+
+    <section class="info">
+        <div class="container">
+            <div class="block">
+                <h2 class="title">Get in touch</h2>
+                <hr>
+                <div class="subheader">Lorem ipsum dolor sit amet, consetetur sadipscing elitr amet</div>
+            </div>
+            <div class="info__content">
+                <div class="info__item">
+                    <div class="info__location">
+                        <a href="#" class="info__icons">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </a>                        
+                        <div class="info__address">
+                            <div class="info__title">Address</div>
+                            <div class="info__text">
+                                312, 7th Ave, New York <br>
+                                NY 101200, United States of America  
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="info__location">
+                        <a href="#" class="info__icons">
+                            <i class="fas fa-mobile-alt"></i>
+                        </a>                        
+                        <div class="info__address">
+                            <div class="info__title">Hotline (24x7)</div>
+                            <div class="info__text">
+                                +65 0052 300, +65 88251 210 <br>
+                                +88 01723 511 340    
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="info__location">
+                        <a href="#" class="info__icons">
+                            <i class="far fa-envelope"></i>
+                        </a>                        
+                        <div class="info__address">
+                            <div class="info__title">E-mail</div>
+                            <div class="info__text">
+                                shapedtheme@gmail.com <br>
+                                khalilkode@gmail.com    
+                            </div>
+                        </div>
+                    </div>            
+                </div>
+
+            
+                <form class="feed-form" action="#">                        
+                    <input name="name" required placeholder="Your Name" type="text">
+                    <input name="email" required placeholder="Your E-mail" type="email"> 
+                    <input name="subject" required placeholder="Your Subject" type="text"> 
+                    <input name="company" required placeholder="Company name" type="text"> 
+                    <textarea name="message" placeholder="Write your message" ></textarea> 
+                        
+                    <button class="button button_form">send messege</button>
+                    <div> <span>* </span>We’ll contact you as as possible. We don’t reply on Monday.</div>
+                </form>             
+            </div>
         </div>
     </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__icons">
+                <a href="#" class="footer__link">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#" class="footer__link">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#" class="footer__link">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#" class="footer__link">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </div>
+            <hr>
+            <div class="footer__text">© 2015 Startup, Designed by ShapedTheme</div>
+        </div>
+    </footer>
     
 
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>

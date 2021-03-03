@@ -1,0 +1,40 @@
+.info {
+    min-height: 663px;
+    padding: 100px 0;
+    color: rgba(0, 0, 0, 0.527);
+    &__content {
+        margin-top: 65px;
+        display: flex;
+        align-items: flex-start;
+    }
+    &__item {
+        display: flex;
+        flex-direction: column;
+        padding-right: 165px;
+    }
+    &__location {
+        margin-top: 35px;
+        display: flex;
+        align-items: flex-start;
+        a {
+            padding-right: 15px;
+            color:rgba(0, 0, 0, 0.527);
+            &:hover {
+                color: blue;
+            } 
+        }
+        &:first-child {
+            margin-top: 0;
+        }
+    }
+    &__title {
+        font-size: 17px;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    &__text {
+        margin-top: 15px;
+        font-size: 13px;
+        font-weight: 500;
+    }
+}
