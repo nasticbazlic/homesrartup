@@ -29,4 +29,21 @@
             border: none;
         }
     }
+    &_works {
+        display: block;
+        margin: 0 auto;
+        margin-top: 25px;
+        width: 100px;
+        height: 40px;
+        font-size: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        &:hover {
+            color:rgba(235, 97, 97, 0.918);
+            border: none;
+            background-color: #fff;
+            
+        }
+    }
 }

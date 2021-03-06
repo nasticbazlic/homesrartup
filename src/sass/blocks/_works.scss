@@ -1,4 +1,42 @@
 .works {
     min-height: 1380px;
     padding: 100px 0;
+    &__item {
+        position: relative;
+        width: 357px;
+        height: 318px;
+        transition: 0.3s all ease;
+        &:hover {
+            background-color: red;
+
+            img {
+                opacity: 0.5;
+            }
+        }                              
+    }
+    &__descr {
+        margin-top: 70px;
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 2vw;
+    }
+   
+    &__content {        
+        position: absolute;
+        top: 85px;
+        transform: translateX(-50%);
+        left: 50%;
+        color: #fff;        
+    }
+    &__title {
+        font-size: 30px;
+        text-transform: capitalize;
+        text-align: center;
+    }
+    &__subtitle {
+        margin-top: 15px;
+        font-size: 20px;
+        text-align: center;
+    }
 }
